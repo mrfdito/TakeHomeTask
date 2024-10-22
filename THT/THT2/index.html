@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <div class="foto"><img src="saya.jpg" alt="" ></div>
+            <div class="profile">
+                <p>Nama: Muhammad Rizqi Ferdhinandito</p>
+                <p>Kampus: Universitas Pertamina</p>
+                <h4>Pengalaman</h4>
+                <ul>
+                    <li>PKL di bagian Network</li>
+                    <li>PKL di bagian Server</li>
+                </ul>
+            </div>
+        </section>
+
+        
+    </main>
+
+    
+    <div class="media-section">
+        <h2>Hobi Saya</h2>
+        <video width="600" controls>
+            <source src="video.mp4" type="video/mp4">
+            Browser Anda tidak mendukung elemen video.
+        </video>
+        <p>Ini adalah video favorit saya yang bertemakan basket.</p>
+
+        <h3>Audio bertemakan basket</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+    </div>
+
+    <footer>
+         <!-- Contact Section -->
+         <div>
+            <h2>Contact</h2>
+            <!-- Form for visitors -->
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="name">Nama:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Masukkan nama" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Masukkan email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Umur:</label></td>
+                        <td><input type="number" id="age" name="age" min="10" max="100" placeholder="Masukkan umur" required></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin:</td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Pria</label>
+                            <input type="radio" id="female" name="gender" value="female" required>
+                            <label for="female">Wanita</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>expert:</td>
+                        <td>
+                            <input type="checkbox" id="html" name="expert" value="html">
+                            <label for="html">HTML</label>
+                            <input type="checkbox" id="css" name="expert" value="css">
+                            <label for="css">CSS</label>
+                            <input type="checkbox" id="js" name="expert" value="js">
+                            <label for="js">JS</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Negara:</td>
+                        <td>
+                            <select name="country" id="country">
+                                <option value="indonesia">Indonesia</option>
+                                <option value="malaysia">Malaysia</option>
+                                <option value="singapore">Singapura</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Kirim">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <!-- Your contact information -->
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td>muh.dito81@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Telepon:</td>
+                    <td>+6281210693588</td>
+                </tr>
+            </table>
+            <div class="sosial-media">
+            <a href="#"><img src="ig.png" alt="" width="20"></a>
+            <a href="#"><img src="lin.png" alt="" width="22"></a>
+            </div>
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>
